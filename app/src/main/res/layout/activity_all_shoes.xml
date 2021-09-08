@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="#D84315"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:paddingTop="20dp"
+        android:paddingBottom="30dp"
+        android:text="Air Jordans"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F9A825"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:id="@+id/imageshoe1"
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                android:background="#FFFFFF"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/air2" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/orangeColor"
+                android:onClick="onClick"
+                android:text="@string/reviewButton"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imageshoe2"
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                android:background="#FFFFFF"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/air3" />
+
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/orangeColor"
+                android:onClick="onClick"
+                android:text="@string/reviewButton"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imageshoe3"
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                android:background="#FFFFFF"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/air1" />
+
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/orangeColor"
+                android:onClick="onClick"
+                android:text="@string/reviewButton"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imageshoe4"
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                android:background="#FFFFFF"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/air4" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/orangeColor"
+                android:onClick="onClick"
+                android:text="@string/reviewButton"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imageshoe5"
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                android:background="#FFFFFF"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/air5" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/orangeColor"
+                android:onClick="onClick"
+                android:text="@string/reviewButton"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imageshoe6"
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                android:background="#FFFFFF"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/air6" />
+
+            <Button
+                android:id="@+id/button_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F9A825"
+                android:onClick="onClick"
+                android:text="@string/reviewButton"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
